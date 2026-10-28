@@ -75,3 +75,7 @@ function getCertificateResult(progress, average) {
         return "Đủ điều kiện cấp chứng chỉ";
     }
 }
+
+console.log(classifyScore(6.5));
+console.log(isPassed(2, 0));
+console.log(getFinalPrice(990000, " welcome10 "));
